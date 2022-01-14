@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=System78
+Comment=Shut up and do your job!
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=System78
+GtkTheme=System78
+IconTheme=System78
+MetacityTheme=System78
