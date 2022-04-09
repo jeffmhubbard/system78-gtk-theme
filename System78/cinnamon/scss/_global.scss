@@ -15,8 +15,8 @@ $dark_fg_color: #000000;
 $dark_bg_color_trans: fade-out(#D8D8D8, 1 - (1.0 / 2));
 
 // used to calculate gradients for gradient values > 0
-$lighten_amount: 1 + (0.04 / 2);
-$darken_amount: 1 - (0.04 / 2);
+$lighten_amount: 1 + (0.05 / 2);
+$darken_amount: 1 - (0.05 / 2);
 
 // main background surface gradient start and end colors
 $light_bg_grad: if($lighten_amount > 1, lighten($dark_bg_color, ($lighten_amount - 1) * lightness($dark_bg_color)), $dark_bg_color);
@@ -68,17 +68,17 @@ $scrollbar_slider_hover_color: mix($dark_bg_color, $selected_bg_color, 20%);
 $primary_caret_color: #1A1A1A;
 
 // other colors used in the theme
-$link_color: #2c2cff;
-$success_color: #5cff30;
-$warning_color: #ffff30;
-$error_color: #ff5c30;
+$link_color: #0000ee;
+$success_color: #00ff00;
+$warning_color: #ffff00;
+$error_color: #ff0000;
 $info_fg_color: #000000;
 $info_bg_color: #5c5cff;
 
 // used for border-radius throughout theme
-$roundness: 4px;
+$roundness: 3px;
 
 // used for buttons, entrys, panel spacing, and menu item spacing.
-$spacing: 2px;
-$spacing_plus2: (2 + 2) + px;
+$spacing: 3px;
+$spacing_plus2: (3 + 2) + px;
 
