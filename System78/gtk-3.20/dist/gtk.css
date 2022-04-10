@@ -88,7 +88,7 @@
 /* window manager colors */
 @define-color wm_bg_focused #D8D8D8;
 @define-color wm_bg_unfocused #D8D8D8;
-@define-color wm_border_focused #5c5cff;
+@define-color wm_border_focused #D8D8D8;
 @define-color wm_border_unfocused #D8D8D8;
 @define-color wm_title_focused #000000;
 @define-color wm_title_unfocused mix(#000000,#D8D8D8,0.4);
@@ -7333,7 +7333,7 @@ decoration {
   background-image: linear-gradient(to bottom, #dddddd, lightgray);
   border-radius: 3px 3px 0 0;
   border-width: 0;
-  box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.7), 0 0 0 1px #5c5cff;
+  box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.7), 0 0 0 1px #D8D8D8;
   /* this is used for the resize cursor area */
   margin: 9px; }
   decoration:backdrop {
@@ -7344,7 +7344,7 @@ decoration {
   .popup decoration {
     box-shadow: none; }
   .ssd decoration {
-    box-shadow: 0 0 0 1px #5c5cff; }
+    box-shadow: 0 0 0 1px #D8D8D8; }
     .ssd decoration:backdrop {
       box-shadow: 0 0 0 1px #D8D8D8; }
   .solid-csd decoration {
@@ -7942,7 +7942,7 @@ UnityDecoration {
   -UnityDecoration-title-fade: 35px;
   -UnityDecoration-title-alignment: 0; }
   UnityDecoration .top {
-    border: 1px solid #5c5cff;
+    border: 1px solid #D8D8D8;
     border-bottom: 0;
     border-radius: 3px 3px 0 0;
     padding: 1px 6px 0;
